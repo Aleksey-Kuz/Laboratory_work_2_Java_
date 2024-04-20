@@ -13,6 +13,7 @@ public class Main {
 
             Calculator exp = new Calculator(str);
             result = exp.calculate();
+
             System.out.print(str);
             System.out.print(" = ");
             System.out.println(result);

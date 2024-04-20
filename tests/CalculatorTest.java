@@ -64,7 +64,7 @@ public class CalculatorTest {
 
     @Test
     public void calculate_test6() {
-        String str = "89+g2";
+        String str = "89+g2 - 4";
         try {
             Calculator exp = new Calculator(str);
             exp.calculate();
